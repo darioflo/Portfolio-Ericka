@@ -11,6 +11,12 @@ body{
     scroll-behavior: smooth;
     scrollbar-track-color: rgb(244, 237, 211);
     font-family: "Playfair Display", serif;
+    overflow-x: hidden;
+}
+
+.section1{
+    width: 100%;
+    height: auto;
 }
 
 .slogan{
@@ -220,4 +226,96 @@ body{
     position: absolute;
     bottom: 6em;
     left: 20rem;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem;
+}
+
+.advertisement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 5rem;
+    color: rgb(76, 88, 91);
+}
+
+.advertisement h2 {
+    position: relative;
+    color: rgb(76, 88, 91);
+}
+
+.advertisement h2::before {
+    content: '';
+    position: absolute;
+    left: -0.2rem; 
+    top: 0;
+    width: 2px; 
+    height: 3rem; 
+    background-color: rgb(126, 153, 163);
+}
+
+.advertisement h2::after {
+    content: '';
+    position: absolute;
+    left: -1.5em; 
+    top: 1.4em; 
+    width: 12em; 
+    height: 2px; 
+    background-color: rgb(126, 153, 163);
+}
+
+.about-me{
+    width: 50%;
+    height: 100%;
+}
+
+.texts{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: relative;
+    gap: 1rem;
+
+
+    img{
+        width: 50%;
+        height: 70%;
+        border-radius: .3rem;
+    }
+}
+
+
+.description{
+    display: block;
+    width: 22rem;
+    color: rgb(76, 88, 91);
+}
+
+.opacity-3{
+    width: 22rem;
+    height: 6rem;
+    z-index: -1;
+    background-color: rgba(76, 88, 91,0.4);
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    border-radius: .3rem;
+}
+
+#a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
