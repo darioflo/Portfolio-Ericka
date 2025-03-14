@@ -112,15 +112,17 @@ body{
 }
 
 .pic-central{
-    width: 40%;
+    width: 60%;
     height: 100%;
     overflow: hidden;
     border-radius: .3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./assets/Foto1.png");
+    background-image: url("./assets/Ericka.jpg");
     background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .information-me{
