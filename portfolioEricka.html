@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./portfolioEricka.css">
-    <link rel="icon" href="./assets/Logo-Ericka.png">
-    <title>Ericka Villafranca</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="./portfolioEricka.css">
+        <link rel="icon" href="./assets/Logo-Ericka.png">
+        <title>Ericka Villafranca</title>
+    </head>
 <body>
     <section class="section1">
         <div class="slogan">
@@ -22,15 +23,14 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact me</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact me</a></li>
                 </ul>
             </div>
         </nav>
         <div class="dates">
             <div class="pic-central">
-                <img src="./assets/Foto1.png" alt="Ericka">
                 <div class="opacity-1"></div>
             </div>
         <div class="information-me">
@@ -42,28 +42,94 @@
         </div>
         </div>
     </section>
-    <section class="section2">
+    <section class="section2" id="about-me">
         <div class="advertisement"><h2>My Mission: Giving a Voice to Little Ones</h2></div>
         <div class="about-me" id="a1">
-            <div class="texts">
-                <img class="animada" src="./assets/istockphoto-1151549573-1024x1024.jpg" alt="">
+            <div class="texts" data-id="div1">
+                <div class="animada parallax" style="background-image: url('./assets/istockphoto-1151549573-1024x1024.jpg');"></div>
                 <div class="opacity-3"></div>
                 <p class="description animadad">I am a passionate Speech Pathology Assistant dedicated to helping children develop their communication skills. I believe every child deserves to be heard and understood, which is why I strive to equip them with the tools they need to express themselves confidently and engage fully with the world around them.</p>
             </div>
-            <div class="texts">
-                <img class="animada" src="./assets/istockphoto-1468140092-1024x1024.jpg" alt="">
+            <div class="texts" data-id="div2">
+                <div class="animada parallax" style="background-image: url('./assets/istockphoto-1468140092-1024x1024.jpg');"></div>
                 <div class="opacity-3"></div>
                 <p class="description animadad">I work hand in hand with therapists, parents, and caregivers to create an environment where children feel safe and motivated to grow. Every child is unique, so I carefully tailor each strategy to their individual needs, ensuring they receive personalized support to reach their fullest potential.</p>
             </div>
         </div>
         <div class="about-me" id="a2">
-            <div class="texts">
-                <img class="animada" src="./assets/istockphoto-1475829720-1024x1024.jpg" alt="">
+            <img class="img-deep animada" src="./svg/maternidad.png" ></img>
+            <div class="texts" data-id="div3">
+                <div class="animada parallax" style="background-image: url('./assets/istockphoto-2096480418-1024x1024.jpg');"></div>
                 <div class="opacity-3"></div>
                 <p class="description animadad">My mission is to nurture each child’s personal and communicative growth, helping them find their voice. With patience, empathy, and dedication, I guide children through every step of their journey, celebrating their achievements and encouraging them to overcome challenges with confidence and joy.</p>
             </div>
         </div>
     </section>
+    <section class="section3" id="services">
+        <section class="section3" id="services">
+            <div class="inside-services">
+                <div class="box-services" data-id="1">
+                    <i class="fas fa-comments icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Comprehensive speech and language skills assessment to identify individual needs.</p>
+                </div>
+                <div class="box-services" data-id="2">
+                    <i class="fas fa-user-cog icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Tailored, personalized therapy plans designed to fit each child's unique communication journey.</p>
+                </div>
+                <div class="box-services" data-id="3">
+                    <i class="fas fa-volume-up icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Targeted support to improve pronunciation and enhance speech clarity.</p>
+                </div>
+                <div class="box-services" data-id="4">
+                    <i class="fas fa-users icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Development of social communication skills to encourage meaningful interactions.</p>
+                </div>
+                <div class="box-services" data-id="5">
+                    <i class="fas fa-hand-holding-heart icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Guidance and ongoing support for parents and caregivers to foster progress at home.</p>
+                </div>
+                <div class="box-services" data-id="6">
+                    <i class="fas fa-child icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Early language stimulation techniques to promote speech development in young children.</p>
+                </div>
+                <div class="box-services" data-id="7">
+                    <i class="fas fa-microphone icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Practical strategies to improve speech fluency and reduce communication barriers.</p>
+                </div>
+                <div class="box-services" data-id="8">
+                    <i class="fas fa-smile icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Confidence-building exercises to help children communicate more freely and naturally.</p>
+                </div>
+                <div class="box-services" data-id="9">
+                    <i class="fas fa-chart-line icon-service" style="color: rgb(76, 88, 91);"></i>
+                    <p class="text-service">Consistent follow-up sessions to monitor progress and adjust strategies when needed.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class=" footer-logo">
+                <img src="./assets/Logo-Ericka-removebg.png" alt="">
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact</h2>
+                <div class="footer-icons">
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/erika.fajardo.5264"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/eri.fajardo99?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Ericka Villafranca | All Rights Reserved
+        </div>
+    </footer>
     <script src="portfEricka.js"></script>
 </body>
 </html>
