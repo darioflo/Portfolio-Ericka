@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-ericka",
+  "version": "1.0.0",
+  "main": "portfEricka.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darioflo/Portfolio-Ericka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darioflo/Portfolio-Ericka/issues"
+  },
+  "homepage": "https://github.com/darioflo/Portfolio-Ericka#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
