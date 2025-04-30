@@ -483,11 +483,3 @@ body {
   padding: 2rem;
   margin-right: 10rem;
 }
-
-.aleatoria {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  padding: 1rem;
-}
